@@ -27,25 +27,8 @@ body {
   font-size: 100px;
 } */
 
-.bg-warni {
-  background-image: linear-gradient(to right, #f24e1e, #f21eb7); /* Gradient merah ke biru */
-}
-
-.font-basreng {
-  color: #3e342f;
-}
-
-.bg-pink {
-  background-color: #f21eb7;
-}
-
-.text-pink {
-  color: #f21eb7;
-}
-
-.text-warni {
-  color: linear-gradient(to bottom, #f21eb7, #f24e1e);
-  color: #f21eb7;
+.bg-custom {
+  background-color: #c5cae9;
 }
 
 .navbar {
