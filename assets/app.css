@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  /* background-color: #fff3fc; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-warni {
+  color: linear-gradient(to bottom, #f21eb7, #f24e1e);
+}
+
+/* .kategori {
+  font-family: "Bevan", sans-serif;
+  font-weight: normal;
+  font-size: 100px;
+} */
+
+.bg-warni {
+  background-image: linear-gradient(to right, #f24e1e, #f21eb7); /* Gradient merah ke biru */
+}
+
+.font-basreng {
+  color: #3e342f;
+}
+
+.bg-pink {
+  background-color: #f21eb7;
+}
+
+.text-pink {
+  color: #f21eb7;
+}
+
+.text-warni {
+  color: linear-gradient(to bottom, #f21eb7, #f24e1e);
+  color: #f21eb7;
+}
+
+.navbar {
+  z-index: 50;
+}
+.carousel-item {
+  transition: opacity 0.7s ease-in-out;
+}
+.carousel-item-active {
+  opacity: 1;
+}
+.carousel-item-inactive {
+  opacity: 0;
+}
