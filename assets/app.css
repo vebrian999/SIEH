@@ -43,3 +43,26 @@ body {
 .carousel-item-inactive {
   opacity: 0;
 }
+
+.navbar-scrolled {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-scrolled li a {
+  color: black !important;
+}
+
+.navbar-scrolled ul li a {
+  color: black !important;
+}
+
+/* Warna teks saat di-hover */
+.navbar-scrolled ul li a:hover {
+  color: blue !important;
+}
+
+.navbar ul li:hover a {
+  color: blue; /* Ganti dengan warna biru yang diinginkan */
+}
